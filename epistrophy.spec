@@ -4,7 +4,7 @@ Name:		epistrophy
 Version:	1.0
 Release:	1
 License:	GPL
-Group:		Applications/Console
+Group:		X11/Window Managers/Tools
 Source0:	http://nexus.carleton.ca/~smoynes/%{name}.tar.gz
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -16,10 +16,10 @@ Epistrophy is a lightweight keygrabber for BlackBox window manager.
 Epistrophy jest lekkim programem do obs³ugi klawiatury dla zarz±dcy
 okien BlackBox.
 
-
 %prep
 %setup -q -n epist
 
+%build
 xmkmf -a
 %{__make}
 
@@ -28,6 +28,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
 install epist $RPM_BUILD_ROOT%{_bindir}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
