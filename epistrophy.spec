@@ -16,7 +16,6 @@ Epistrophy is a lightweight keygrabber for BlackBox window manager.
 Epistrophy jest lekkim programem do obs³ugi klawiatury dla zarz±dcy
 okien BlackBox.
 
-%define		_prefix		/usr/X11R6
 
 %prep
 %setup -q -n epist
