@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://nexus.carleton.ca/~smoynes/%{name}.tar.gz
+# Source0-md5:	bcf685d355a6c1f159abc67d04852430
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
