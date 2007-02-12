@@ -1,5 +1,5 @@
 Summary:	Keygrabber for BlackBox window manager
-Summary(pl):	Program do obs³ugi klawiatury dla zarz±dcy okien BlackBox
+Summary(pl.UTF-8):   Program do obsÅ‚ugi klawiatury dla zarzÄ…dcy okien BlackBox
 Name:		epistrophy
 Version:	1.0
 Release:	1
@@ -13,8 +13,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Epistrophy is a lightweight keygrabber for BlackBox window manager.
 
-%description -l pl
-Epistrophy jest lekkim programem do obs³ugi klawiatury dla zarz±dcy
+%description -l pl.UTF-8
+Epistrophy jest lekkim programem do obsÅ‚ugi klawiatury dla zarzÄ…dcy
 okien BlackBox.
 
 %prep
