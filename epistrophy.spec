@@ -1,5 +1,5 @@
 Summary:	Keygrabber for BlackBox window manager
-Summary(pl.UTF-8):   Program do obsługi klawiatury dla zarządcy okien BlackBox
+Summary(pl.UTF-8):	Program do obsługi klawiatury dla zarządcy okien BlackBox
 Name:		epistrophy
 Version:	1.0
 Release:	1
